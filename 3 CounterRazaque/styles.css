@@ -1,0 +1,85 @@
+/*
+ Awais Razaque - Lab 3: Intro to JS -- Counter App
+ Marist CMPT 221L Fall 2024
+*/
+
+body {
+	background-color:rgb(255, 255, 255)
+}
+
+.parent {
+    width: 500px;
+    height: 475px;
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 250px
+}
+
+#child1 {
+    width: 500px;
+    height: 100px;
+    background-color: rgb(255, 0, 0);
+}
+
+h1 {
+    text-align: center;
+    margin-top: auto;
+    font-size: 60px;
+    line-height: 100px;
+}
+
+#child2 {
+    position: relative;
+    width: 500px;
+    height: 150px;
+    background-color: rgb(0, 47, 255);
+    top: 10px;
+}
+
+#counternumber {
+    text-align: center;
+    font-size: 100px;
+    line-height: 150px;
+}
+
+#child3 {
+    position: relative;
+    width: 500px;
+    height: 200px;
+    background-color: rgb(115, 0, 255);
+    top: 20px;
+}
+
+#increment {
+    width: 75px;
+    height: 100px;
+    position: relative;
+    margin-top: 50px;
+    margin-left: 75px;
+    font-size: 20px;
+    background-color: green;
+    border-radius: 15px;
+}
+
+#reset {
+    width: 75px;
+    height: 100px;
+    position: relative;
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+#decrement {
+    width: 75px;
+    height: 100px;
+    position: relative;
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 20px;
+    background-color: red;
+    border-radius: 15px;
+}
