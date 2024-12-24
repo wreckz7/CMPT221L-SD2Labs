@@ -1,3 +1,8 @@
+/*
+ Awais Razaque - Lab 4: JavaScript Clue Game -- Mixing objects and arrays
+ Marist CMPT 221L Fall 2024
+*/
+
 let suspectsArray = ["John", "Awais", "Evan", "Mary", "Kevin", "Pluto"];
 let weaponsArray = ["Glock", "AK-47", "AWP", "Scout", "M4A1-S", "Deagle", "Knife", "P90"];
 let roomsArray = ["Kitchen", "Living Room", "Garage", "Patio", "Master Bedroom", "HC1021", "DY2005", "DY1008", "Bathroom", "Closet"];
