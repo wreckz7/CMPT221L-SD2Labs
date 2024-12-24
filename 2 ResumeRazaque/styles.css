@@ -1,0 +1,92 @@
+/*
+ Awais Razaque - Lab 2: HTML and CSS (Create your Resume)
+ Marist CMPT 221L Fall 2024
+ */
+
+.container {
+	display: flex;
+	column-gap: 35px
+}
+
+body {
+	background-color:aliceblue
+}
+
+.box1 {
+	width: 250px;
+  	height: 910px;
+	background-color: #652b95;
+  	margin: 15px;
+}
+
+.box2 {
+	width: 1300px;
+  	height: 940px;
+	background-color: aliceblue
+}
+
+/* All box1 */
+#avatar {
+	border-radius: 50%;
+  }
+
+#contact {
+	color: rgb(255, 255, 255);
+	font-size: 30px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	text-align: center;
+}
+
+#phone {
+	color: rgb(255, 255, 255);
+	font-size: 15px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#email {
+	color: rgb(255, 255, 255);
+	text-decoration:underline
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#linkedin {
+	color: rgb(255, 255, 255);
+	text-decoration:underline
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#skills {
+	color: rgb(255, 255, 255);
+	font-size: 30px;
+	text-align: center;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#spacing6 {
+	margin-bottom: 6em; /* adds _ units of spacing after each div */
+  }
+
+#skillsformat {
+	color: rgb(255, 255, 255);
+	font-size: 15px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* All box2 */
+h2 {
+	color: black;
+	font-size: 40px;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+h3 {
+	color: black;
+	font-size: 25px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#underlineformat {
+	color: black;
+	font-size: 20px;
+	text-decoration: underline;
+}
